@@ -1,3 +1,5 @@
+#mine is set to russian, but you can make a txt file with your preferred words
+
 from googletrans import Translator
 from itertools import islice
 from colorama import init, Fore, Back, Style
@@ -22,7 +24,7 @@ with File1 as f1, File2 as f2:
 
 
 
-print(Back.BLUE + Fore.WHITE + "\n" + "BENVENUTO AL CORSO DI RUSSO")
+print(Back.BLUE + Fore.WHITE + "\n" + "WELCOME TO LANGUAGE DAILY WORDS")
 print(Style.RESET_ALL)
 for word in range(len(TodayList)):
     translator = Translator()
